@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "851484446651",
+    "project_id": "moarkit",
+    "storage_bucket": "moarkit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851484446651:android:e7fe1759dd9529ce287e9e",
+        "android_client_info": {
+          "package_name": "com.riskyo.moarkitproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851484446651-n35mt85m48ma8pddhutedmoafhj2cqcn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riskyo.moarkitproject",
+            "certificate_hash": "245b7c56fa1cb711d1d1edc9584778d8966c4f47"
+          }
+        },
+        {
+          "client_id": "851484446651-0if7g0dn85r9kcpher0b77v0qb4he7eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIpcUhjIoyxiP9N9fm10bwTlcwnhjgfkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851484446651-0if7g0dn85r9kcpher0b77v0qb4he7eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.riskyo.moarkitproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoarkitProject">
+        <activity
+            android:name=".activity_lupapass"
+            android:exported="true" />
+        <activity
+            android:name=".user"
+            android:exported="true" />
+        <activity
+            android:name=".EditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".InsertActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_histori"
+            android:exported="true" />
+        <activity
+            android:name=".activity_pg"
+            android:exported="true" />
+        <activity
+            android:name=".activity_rg"
+            android:exported="true" />
+        <activity
+            android:name=".activity_mg"
+            android:exported="true" />
+        <activity
+            android:name=".activity_menuproduk"
+            android:exported="true" />
+        <activity
+            android:name=".activity_item_list"
+            android:exported="true" />
+        <activity
+            android:name=".activity_hg"
+            android:exported="true" />
+        <activity
+            android:name=".activity_jualunit2"
+            android:exported="true" />
+        <activity
+            android:name=".activity_jualunit"
+            android:exported="true" />
+        <activity
+            android:name=".activity_edituser"
+            android:exported="true" />
+        <activity
+            android:name=".activity_user"
+            android:exported="true" />
+        <activity
+            android:name=".activity_register"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".activity_login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
